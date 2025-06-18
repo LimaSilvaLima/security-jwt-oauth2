@@ -11,3 +11,4 @@ public class Secjwtoauth2Application {
 	}
 
 }
+ 
