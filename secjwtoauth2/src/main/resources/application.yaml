@@ -1,19 +1,13 @@
+#application:
+#    name: secjwtoauth2
 spring:
-  application:
-    name: secjwtoauth2
-
-  security:
-    oauth2:
+    security:
+     oauth2:
       client:
         registration:
           google:
             client-id: 1019405433420-8fe0agpgp4a8noreltkogk8hih5v4ua8.apps.googleusercontent.com
             client-secret: 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
-      resourceserver:
-        jwt:
-          issuer-uri: https://accounts.google.com
-
-server:
-  error:
-    include-stacktrace: never
-
+      #resourceserver:
+      #  jwt:
+      #    issuer-uri: https://accounts.google.com

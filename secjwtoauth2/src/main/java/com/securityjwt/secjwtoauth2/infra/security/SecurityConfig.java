@@ -20,8 +20,14 @@ public class SecurityConfig {
                     authorizeConfig.requestMatchers("logout").permitAll();
                     authorizeConfig.anyRequest().authenticated();
                 })
-            .formLogin(Customizer.withDefaults())      
+            .oauth2Login(Customizer.withDefaults())
+            /*.oauth2ResourceServer(config ->{
+                config.jwt(Customizer.withDefaults());
+            })*/
             .build();
+
+
+            //.formLogin(Customizer.withDefaults())
                 
     }
 }
