@@ -64,12 +64,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
-		<!-- For OAuth2 Resource Server 
+		<!-- For OAuth2 Resource Server -->
 		 <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 		</dependency>
-		-->
+		
  	   
 	   <dependency>
 			<groupId>org.springdoc</groupId>
